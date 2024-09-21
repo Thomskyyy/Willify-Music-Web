@@ -1,0 +1,105 @@
+*{
+    font-family: 'Poppins';
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #272727;
+    text-decoration: none;
+}
+
+.title-artist{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+header {
+    background: rgb(115,159,212);
+    background: radial-gradient(circle, rgba(115,159,212,1) 11%, rgba(187,134,252,1) 95%);
+    color: #272727;
+    padding: 20px 10;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    margin: 0;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-weight: 500;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: #272727;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #ffffff;
+}
+
+.popular {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.song {
+    background: rgb(115,159,212);
+    background: radial-gradient(circle, rgba(115,159,212,1) 11%, rgba(187,134,252,1) 95%);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+}
+
+.song img {
+    width: 100%;
+    height: auto;
+}
+
+.title-artist {
+    text-decoration: none;
+    color: #333;
+}
+
+.song-title {
+    font-weight: 600;
+    margin: 0.5em 0 0.2em;
+}
+
+.artist-name {
+    font-weight: 300;
+    margin: 0 0 1em;
+}
